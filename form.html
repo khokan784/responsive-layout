@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu-content a {
+            text-decoration: none;
+            color: rgb(28, 28, 28);
+        }
+
+        .menu-content {
+            min-width: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .form-content{
+            width: 50%;
+            border: 2px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .form-content input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <div class="menu-content">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">profile</a>
+            <a href="">blog</a>
+        </div>
+        <a href="">log in</a>
+    </nav>
+    <form class="form-container">
+        <section class="form-content">
+            <h3>Log in</h3>
+            <input type="email" name="" id="" placeholder="email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="Log in">
+        </section>
+    </form>
+</body>
+
+</html>
